@@ -1,0 +1,7 @@
+C:\Users\nash\source\repos\PrototypePro1\PrototypePro1\bin\Debug\PrototypePro1.exe.config
+C:\Users\nash\source\repos\PrototypePro1\PrototypePro1\bin\Debug\PrototypePro1.exe
+C:\Users\nash\source\repos\PrototypePro1\PrototypePro1\bin\Debug\PrototypePro1.pdb
+C:\Users\nash\source\repos\PrototypePro1\PrototypePro1\obj\Debug\PrototypePro1.csprojResolveAssemblyReference.cache
+C:\Users\nash\source\repos\PrototypePro1\PrototypePro1\obj\Debug\PrototypePro1.csproj.CoreCompileInputs.cache
+C:\Users\nash\source\repos\PrototypePro1\PrototypePro1\obj\Debug\PrototypePro1.exe
+C:\Users\nash\source\repos\PrototypePro1\PrototypePro1\obj\Debug\PrototypePro1.pdb

@@ -1,0 +1,7 @@
+C:\Users\nash\source\repos\try3\TestHarness\bin\Debug\TestHarness.dll.config
+C:\Users\nash\source\repos\try3\TestHarness\bin\Debug\TestHarness.dll
+C:\Users\nash\source\repos\try3\TestHarness\bin\Debug\TestHarness.pdb
+C:\Users\nash\source\repos\try3\TestHarness\obj\Debug\TestHarness.csprojResolveAssemblyReference.cache
+C:\Users\nash\source\repos\try3\TestHarness\obj\Debug\TestHarness.csproj.CoreCompileInputs.cache
+C:\Users\nash\source\repos\try3\TestHarness\obj\Debug\TestHarness.dll
+C:\Users\nash\source\repos\try3\TestHarness\obj\Debug\TestHarness.pdb
