@@ -1,0 +1,314 @@
+
+  <NoSqlDb>
+    <Item>
+      <Key>
+        CodeUtilities
+      </Key>
+      <Name>
+        CodeUtilities
+      </Name>
+      <Description>
+        Code Utilities
+      </Description>
+      <TimeDate>
+      </TimeDate>
+      <Children>
+      </Children>
+      <Payload>
+        <File Path>
+          ../Utilities/CodeUtilities/CodeUtilities.h
+        </File Path>
+        <Categories>
+        </Categories>
+      </Payload>
+    </Item>
+    <Item>
+      <Key>
+        StringUtilities
+      </Key>
+      <Name>
+        StringUtilities
+      </Name>
+      <Description>
+        String Utilities
+      </Description>
+      <TimeDate>
+      </TimeDate>
+      <Children>
+        <Child>
+          CodeUtilities
+        </Child>
+      </Children>
+      <Payload>
+        <File Path>
+          ../Utilities/StringUtilities/StringUtilities.h
+        </File Path>
+        <Categories>
+        </Categories>
+      </Payload>
+    </Item>
+    <Item>
+      <Key>
+        TestUtilities
+      </Key>
+      <Name>
+        TestUtilities
+      </Name>
+      <Description>
+        Test Utilities
+      </Description>
+      <TimeDate>
+      </TimeDate>
+      <Children>
+        <Child>
+          StringUtilities
+        </Child>
+      </Children>
+      <Payload>
+        <File Path>
+          ../Utilities/TestUtilities/TestUtilities.h
+        </File Path>
+        <Categories>
+        </Categories>
+      </Payload>
+    </Item>
+    <Item>
+      <Key>
+        DateTime
+      </Key>
+      <Name>
+        DateTime
+      </Name>
+      <Description>
+        Date Time
+      </Description>
+      <TimeDate>
+      </TimeDate>
+      <Children>
+        <Child>
+          StringUtilities
+        </Child>
+      </Children>
+      <Payload>
+        <File Path>
+          ../DateTime/DateTime.h
+        </File Path>
+        <Categories>
+        </Categories>
+      </Payload>
+    </Item>
+    <Item>
+      <Key>
+        DbCore
+      </Key>
+      <Name>
+        DbCore
+      </Name>
+      <Description>
+        Db Core functions
+      </Description>
+      <TimeDate>
+      </TimeDate>
+      <Children>
+        <Child>
+          DateTime
+        </Child>
+        <Child>
+          StringUtilities
+        </Child>
+      </Children>
+      <Payload>
+        <File Path>
+          ../DbCore/DbCore.h
+        </File Path>
+        <Categories>
+        </Categories>
+      </Payload>
+    </Item>
+    <Item>
+      <Key>
+        Query
+      </Key>
+      <Name>
+        Query
+      </Name>
+      <Description>
+        Query functions in this package
+      </Description>
+      <TimeDate>
+      </TimeDate>
+      <Children>
+        <Child>
+          DateTime
+        </Child>
+        <Child>
+          StringUtilities
+        </Child>
+        <Child>
+          DbCore
+        </Child>
+      </Children>
+      <Payload>
+        <File Path>
+          ../Query/Query.h
+        </File Path>
+        <Categories>
+        </Categories>
+      </Payload>
+    </Item>
+        <Item>
+      <Key>
+        Persist
+      </Key>
+      <Name>
+        Persist
+      </Name>
+      <Description>
+        Persistance functions
+      </Description>
+      <TimeDate>
+      </TimeDate>
+      <Children>
+        <Child>
+          DateTime
+        </Child>
+        <Child>
+          StringUtilities
+        </Child>
+        <Child>
+          DbCore
+        </Child>
+        <Child>
+          XmlDocument
+        </Child>
+        <Child>
+          XmlElement
+        </Child>
+      </Children>
+      <Payload>
+        <File Path>
+          ../Persist/Persist.h
+        </File Path>
+        <Categories>
+        </Categories>
+      </Payload>
+    </Item>
+    <Item>
+      <Key>
+        Test
+      </Key>
+      <Name>
+        Test
+      </Name>
+      <Description>
+        Requirements as test methods
+      </Description>
+      <TimeDate>
+      </TimeDate>
+      <Children>
+        <Child>
+          DateTime
+        </Child>
+        <Child>
+          StringUtilities
+        </Child>
+        <Child>
+          DbCore
+        </Child>
+        <Child>
+          Query
+        </Child>
+        <Child>
+          Persist
+        </Child>
+        <Child>
+          TestUtilities
+        </Child>
+      </Children>
+      <Payload>
+        <File Path>
+          ../Test/Test.h
+        </File Path>
+        <Categories>
+        </Categories>
+      </Payload>
+    </Item>
+        <Item>
+      <Key>
+        Executive
+      </Key>
+      <Name>
+        Executive
+      </Name>
+      <Description>
+        Executable for the project requirements
+      </Description>
+      <TimeDate>
+      </TimeDate>
+      <Children>
+        <Child>
+          Test
+        </Child>
+        <Child>
+          StringUtilities
+        </Child>
+        <Child>
+          TestUtilities
+        </Child>
+      </Children>
+      <Payload>
+        <File Path>
+          ../Executive/Executive.cpp
+        </File Path>
+        <Categories>
+        </Categories>
+      </Payload>
+    </Item>
+    <Item>
+      <Key>
+        XmlDocument
+      </Key>
+      <Name>
+        XmlDocument
+      </Name>
+      <Description>
+        Xml Document creation and managing functions
+      </Description>
+      <TimeDate>
+      </TimeDate>
+      <Children>
+        <Child>
+          XmlElement
+        </Child>
+      </Children>
+      <Payload>
+        <File Path>
+          ../XmlDocument/XmlDocument.h
+        </File Path>
+        <Categories>
+        </Categories>
+      </Payload>
+    </Item>
+        <Item>
+      <Key>
+        XmlElement
+      </Key>
+      <Name>
+        XmlElement
+      </Name>
+      <Description>
+        Xml Element creation and managing functions
+      </Description>
+      <TimeDate>
+      </TimeDate>
+      <Children>
+      </Children>
+      <Payload>
+        <File Path>
+          ../XmlElement/XmlElement.h
+        </File Path>
+        <Categories>
+        </Categories>
+      </Payload>
+    </Item>
+  </NoSqlDb>
